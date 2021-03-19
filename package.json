@@ -1,0 +1,23 @@
+{
+    "name": "bomberman",
+    "version": "1.0.0",
+    "description": "A simple bomberman game in typescript",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc --project tsconfig.json & node server.js",
+        "server": "node server.js",
+        "watch-ts": "tsc --project tsconfig.json -w"
+    },
+    "keywords": [
+        "bomberman",
+        "typescript",
+        "ts",
+        "bomberman"
+    ],
+    "author": "Adhiraaj Ravinder",
+
+    "dependencies": {
+        "express": "^4.17.1",
+        "typescript": "^4.0.5"
+    }
+}
